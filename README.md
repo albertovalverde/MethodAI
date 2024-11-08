@@ -1,4 +1,4 @@
-# Image
+
 ![ThinkAi](image.jpeg)
 
 # ThinkAI
