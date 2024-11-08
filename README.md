@@ -2,8 +2,6 @@
 ![ThinkAi](image.jpeg)
 
 # ThinkAI
-# DesignAId
-
 An AI-powered application to assist in design thinking using the power of large language models.
 
 ## Introduction
