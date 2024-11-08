@@ -1,0 +1,8 @@
+streamlit
+extra_streamlit_components
+streamlit_option_menu
+fpdf
+langchain
+langchain-community
+weaviate
+clarifai

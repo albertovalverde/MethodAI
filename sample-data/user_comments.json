@@ -1,0 +1,62 @@
+[
+    {
+        "user_id": "U001",
+        "question": "How does the lack of an integrated search system for records affect you?",
+        "answer": "The lack of an integrated search system makes navigation and access to records difficult, consuming a lot of time in our daily operations."
+    },
+    {
+        "user_id": "U002",
+        "question": "How does the difficulty in accurately tracking billable hours impact your productivity?",
+        "answer": "The difficulty in accurately tracking billable hours negatively affects our profitability and productivity in the firm."
+    },
+    {
+        "user_id": "U003",
+        "question": "What do you need to enhance communication with your clients and collaborators?",
+        "answer": "We need tools that facilitate effective communication with clients and collaborators without losing important information in the process."
+    },
+    {
+        "user_id": "U004",
+        "question": "Why is automating reminders for case deadlines essential?",
+        "answer": "Automating reminders for case deadlines would allow us to prioritize our daily tasks more effectively and not overlook important matters."
+    },
+    {
+        "user_id": "U005",
+        "question": "What benefits would integrating case management tools with communication systems bring?",
+        "answer": "Integrating case management tools with communication systems would help us improve effectiveness in conflict resolution and interaction with clients."
+    },
+    {
+        "user_id": "U006",
+        "question": "How does the complexity of exchanging files and data with clients affect you?",
+        "answer": "The complexity of exchanging files and data with clients hinders our collaboration and exposes us to privacy and information security issues."
+    },
+    {
+        "user_id": "U007",
+        "question": "In what aspects do you see the need for improvement in generating reports for clients?",
+        "answer": "Generating reports for clients involves a laborious manual process that could be simplified with proper tools allowing greater customization and efficiency."
+    },
+    {
+        "user_id": "U008",
+        "question": "What improvements could optimize your daily workflow and information security?",
+        "answer": "Enhancing data synchronization across devices would be key to optimizing our daily workflow and information security within our firm."
+    },
+    {
+        "user_id": "U009",
+        "question": "How does the lack of advanced labeling in legal documents affect your review processes?",
+        "answer": "The lack of advanced labeling in legal documents complicates our review and case tracking processes, slowing down our work."
+    },
+    {
+        "user_id": "U010",
+        "question": "Why is it important to have a system that facilitates access to legal databases from various devices?",
+        "answer": "Seamless access to legal databases from different devices is essential for effective work in our firm and to stay current with specific information."
+    },
+    {
+        "user_id": "U011",
+        "question": "What challenges do you face when preparing detailed reports for your clients and how could they be overcome?",
+        "answer": "Preparing detailed reports for clients involves multiple manual inputs, impacting our productivity and report quality. We need tools to simplify this process."
+    },
+    {
+        "user_id": "U012",
+        "question": "In what aspects do you see the importance of having personalized alerts for urgent situations?",
+        "answer": "Having personalized alerts for urgent situations would allow us to prioritize our tasks more effectively, avoid oversights, and address critical matters promptly."
+    }
+]
