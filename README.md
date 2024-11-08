@@ -6,7 +6,7 @@ An AI-powered application to assist in design thinking using the power of large 
 
 ## Introduction
 
-`ThinkAi` is an interactive Streamlit application that guides users through the design thinking process. The app uses AI to generate insights, suggestions, and guidance based on user inputs across various stages of the design thinking methodology: Empathize, Define, Ideate, Prototype, and Test.
+`ThinkAi` is an interactive Streamlit application that guides users through the Design Thinking process. The app uses AI to generate insights, suggestions, and guidance based on user inputs across various stages of the design thinking methodology: Empathize, Define, Ideate, Prototype, and Test.
 
 ## Features
 
