@@ -1,3 +1,6 @@
+# Image
+![ThinkAi](image.jpeg)
+
 # ThinkAI
 An AI-powered application to assist in design thinking leveraging the capabilities of large language models.
 
