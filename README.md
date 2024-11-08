@@ -1,24 +1,58 @@
+# Image
 ![ThinkAi](image.jpeg)
 
 # ThinkAI
-An AI-powered application to assist in design thinking leveraging the capabilities of large language models.
+# DesignAId
+
+An AI-powered application to assist in design thinking using the power of large language models.
 
 ## Introduction
-ThinkAI is an interactive Streamlit application that guides users through the design thinking process. The app harnesses AI to generate insights, suggestions, and guidance based on user inputs across various stages of the design thinking methodology: Empathize, Define, Ideate, Prototype, and Test.
+
+`DesignAId` is an interactive Streamlit application that guides users through the design thinking process. The app uses AI to generate insights, suggestions, and guidance based on user inputs across various stages of the design thinking methodology: Empathize, Define, Ideate, Prototype, and Test.
 
 ## Features
-- **Interactive Interface**: Offers a step-by-step walkthrough of the design thinking stages.
-- **Autofill for Demo**: Users can quickly start with a demo setup where essential fields are autofilled.
-- **AI-powered Suggestions**: Generates AI suggestions for each stage based on user input.
-- **Report Generation**: Users can produce a downloadable PDF report upon obtaining results.
-- **Input Review**: Users have the ability to review their input at any point.
-- **Restart Capability**: The application can be restarted from any stage.
+
+1. **Interactive Interface**: Offers a step-by-step walkthrough of the design thinking stages.
+2. **Autofill for Demo**: Users can quickly start with a demo setup, where the necessary fields are autofilled.
+3. **AI-powered Suggestions**: Based on user input, the application generates AI suggestions for each stage.
+4. **Report Generation**: After obtaining results, users can generate a downloadable PDF report.
+5. **Input Review**: Users can review their input at any point.
+6. **Restart Capability**: The application can be restarted from any stage.
+
+## How to Use
+
+1. **Autofill and Demo**: To quickly see the app in action, click "Autofill" to pre-populate the fields and then click "Generate Now" to get AI-powered insights.
+2. **Manual Input**: Users can manually input answers to the presented questions, which will guide the AI's suggestions.
+3. **Navigate Between Stages**: Once generated, the results for each design thinking stage can be viewed through tabs or by using the 'Next' button.
+4. **Download Report**: Go to the "Download Report" tab to generate and download a comprehensive PDF report of your inputs and the AI's suggestions.
+5. **Review Inputs**: Users can review their provided inputs in the "Your Input" tab.
+6. **Restart**: If needed, users can restart the process by navigating to the "Restart" tab.
 
 ## To-Do Ideas for Real-Time Prototyping
 - **Real-Time Prototyping Module**: Implement a feature for real-time prototyping functionality.
 - **Live Prototype Viewer**: Incorporate a tool that allows users to view and interact with prototypes in real-time.
 - **Collaborative Prototyping**: Explore possibilities for collaborative prototyping functionalities for team projects.
 - **Feedback Integration**: Integrate a feedback mechanism for instant input on prototypes during the design process.
+
+## Dependencies
+
+- streamlit
+- extra_streamlit_components
+- streamlit_option_menu
+- fpdf
+- langchain
+- weaviate
+- clarifai
+
+## Setup
+
+To get the app running locally:
+
+1. Clone the repository.
+2. Install the dependencies.
+3. Run the app using Streamlit.
+
+`streamlit run your_app_filename.py`
 
 ## Integration with Visual Studio Code for Debugging
 To debug the Streamlit app using Visual Studio Code with the provided configuration, follow these steps:
@@ -47,27 +81,13 @@ To debug the Streamlit app using Visual Studio Code with the provided configurat
 
 2. **Launch the Debugger**: Select the "Python:Streamlit" configuration in VS Code and press the play button to start debugging your Streamlit app with the specified arguments.
 
-## Dependencies
-- streamlit
-- extra_streamlit_components
-- streamlit_option_menu
-- fpdf
-- langchain
-- weaviate
-- clarifai
-
-## Setup
-To run the app locally:
-1. Clone the repository.
-2. Install the necessary dependencies.
-3. Launch the app using Streamlit.
-
-```bash
-streamlit run app.py
-```
 
 ## Note
-This application utilizes utility functions from various modules (e.g., `utils.pdf`, `utils.clarifai`, `utils.prompts`). Ensure these modules and their respective functions are accessible in your local setup.
+
+This app makes use of utility functions from various modules (e.g., `utils.pdf`, `utils.clarifai`, `utils.prompts`). Ensure these modules and their respective functions are available in your local setup.
 
 ## Feedback
+
 For any feedback, issues, or feature requests, please open an issue in the repository.
+
+
