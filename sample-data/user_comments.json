@@ -1,62 +1,52 @@
 [
     {
         "user_id": "U001",
-        "question": "How does the lack of an integrated search system for records affect you?",
-        "answer": "The lack of an integrated search system makes navigation and access to records difficult, consuming a lot of time in our daily operations."
+        "question": "What aspects do you consider important when using technological tools in your daily tasks?",
+        "answer": "I value ease of use and the ability of technological tools to optimize my work processes without adding additional complexity."
     },
     {
         "user_id": "U002",
-        "question": "How does the difficulty in accurately tracking billable hours impact your productivity?",
-        "answer": "The difficulty in accurately tracking billable hours negatively affects our profitability and productivity in the firm."
+        "question": "How do high implementation costs of new technological solutions affect your willingness to try innovative tools?",
+        "answer": "High implementation costs limit my willingness to try new technological solutions, as they pose a financial risk that I have to consider."
     },
     {
         "user_id": "U003",
-        "question": "What do you need to enhance communication with your clients and collaborators?",
-        "answer": "We need tools that facilitate effective communication with clients and collaborators without losing important information in the process."
+        "question": "What challenges do you encounter when using new technological tools in your work routine?",
+        "answer": "I often face obstacles when trying to adapt to new technological tools, as they require time to learn how to use them effectively."
     },
     {
         "user_id": "U004",
-        "question": "Why is automating reminders for case deadlines essential?",
-        "answer": "Automating reminders for case deadlines would allow us to prioritize our daily tasks more effectively and not overlook important matters."
+        "question": "What do you think could be the reasons why innovative technologies are sometimes not effectively used in your work environment?",
+        "answer": "Lack of knowledge and proper training may be reasons why innovative technologies are not effectively used in our work environment."
     },
     {
         "user_id": "U005",
-        "question": "What benefits would integrating case management tools with communication systems bring?",
-        "answer": "Integrating case management tools with communication systems would help us improve effectiveness in conflict resolution and interaction with clients."
+        "question": "How do you imagine a new technological tool could help you be more innovative in your daily work?",
+        "answer": "I believe a new technological tool could enhance my creativity and promote innovative thinking by automating repetitive tasks and freeing me up for more creative activities."
     },
     {
         "user_id": "U006",
-        "question": "How does the complexity of exchanging files and data with clients affect you?",
-        "answer": "The complexity of exchanging files and data with clients hinders our collaboration and exposes us to privacy and information security issues."
+        "question": "What benefits would you expect from a technological tool that helps you solve problems more efficiently?",
+        "answer": "I would expect a technological tool to enable me to address problems more quickly and accurately, saving time and improving the quality of my results."
     },
     {
         "user_id": "U007",
-        "question": "In what aspects do you see the need for improvement in generating reports for clients?",
-        "answer": "Generating reports for clients involves a laborious manual process that could be simplified with proper tools allowing greater customization and efficiency."
+        "question": "How important do you think it is to adapt technological solutions as your needs and those of your team change?",
+        "answer": "I consider it crucial for technological solutions to evolve to meet our changing needs, ensuring that we can work efficiently and effectively at all times."
     },
     {
         "user_id": "U008",
-        "question": "What improvements could optimize your daily workflow and information security?",
-        "answer": "Enhancing data synchronization across devices would be key to optimizing our daily workflow and information security within our firm."
+        "question": "Have you ever faced difficulties when adopting new technological tools in your current work processes?",
+        "answer": "Yes, at times I have encountered challenges when adopting new technological tools, as they require a shift in how I work and can sometimes be overwhelming at the outset."
     },
     {
         "user_id": "U009",
-        "question": "How does the lack of advanced labeling in legal documents affect your review processes?",
-        "answer": "The lack of advanced labeling in legal documents complicates our review and case tracking processes, slowing down our work."
+        "question": "How do you think a user-centered technological solution could enhance your work experience?",
+        "answer": "I imagine a user-centered solution could make my work smoother and more efficient by adapting to my needs and preferences without unnecessarily complicating my daily tasks."
     },
     {
         "user_id": "U010",
-        "question": "Why is it important to have a system that facilitates access to legal databases from various devices?",
-        "answer": "Seamless access to legal databases from different devices is essential for effective work in our firm and to stay current with specific information."
-    },
-    {
-        "user_id": "U011",
-        "question": "What challenges do you face when preparing detailed reports for your clients and how could they be overcome?",
-        "answer": "Preparing detailed reports for clients involves multiple manual inputs, impacting our productivity and report quality. We need tools to simplify this process."
-    },
-    {
-        "user_id": "U012",
-        "question": "In what aspects do you see the importance of having personalized alerts for urgent situations?",
-        "answer": "Having personalized alerts for urgent situations would allow us to prioritize our tasks more effectively, avoid oversights, and address critical matters promptly."
+        "question": "What impact do you think an innovative technological solution would have on your job satisfaction and engagement?",
+        "answer": "I believe an innovative technological solution could increase my job satisfaction by simplifying my work processes and motivating me to be more creative and productive in my daily tasks."
     }
 ]

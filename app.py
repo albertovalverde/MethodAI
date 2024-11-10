@@ -100,15 +100,25 @@ if st.session_state['generated'] == 0:
         colA, colB, colC, _ = st.columns(4)
 
 
+
         if colA.button("Autofill"):
-            st.session_state['q1_default_val'] = "My role is a software developer tasked with creating an application for law firms."
-            st.session_state['q2_default_val'] = "My target audience is law firms that wish to track the status of their cases, alarms, and pending tasks efficiently."
-            st.session_state['q3_default_val'] = "The problem lies in the lack of a centralized platform for law firms to monitor their cases' status, receive alerts, and manage pending tasks in an organized manner. The absence of this tool can lead to inefficient management and time wastage in case administration."
-            st.session_state['q4_default_val'] = "Some potential root causes could include the absence of an integrated tracking system, information scattered across different platforms, or the lack of automation in case management."
-            st.session_state['q5_default_val'] = "My preliminary solutions involve developing a web application that enables law firms to visualize information about their cases' status, set up alarms and reminders, and effectively manage pending tasks."
-            st.session_state['q6_default_val'] = "There have been no prior attempts to create a customized application specifically for law firms that comprehensively addresses these needs."
-            st.session_state['q7_default_val'] = "Success will be apparent in the adoption by law firms, more efficient case management, a decrease in time spent on administrative tasks, and increased user satisfaction due to enhanced control over their legal cases."
-            st.session_state['autofilled'] = True
+            st.session_state['q1_default_val'] = "My primary responsibilities revolve around developing AI-powered tools using agile methodologies to create solutions that prioritize user-centric value."
+            st.session_state['q2_default_val'] = "My main audience consists of individuals and organizations looking for assistance in devising solutions that deliver substantial value to end users."
+            st.session_state['q3_default_val'] = "The main issue is that these solutions are not providing enough value to be considered essential by users, often accompanied by high production costs, affecting developers, end-users, and commercial parties."
+            st.session_state['q4_default_val'] = "Lack of use of agile methodologies and lack of knowledge of AI-Powered Technologies that could assist."
+            st.session_state['q5_default_val'] = "An AI-powered Streamlit prototype to assist in Design Thinking using the power of large language models."
+            st.session_state['q6_default_val'] = "While design thinking and AI have been individually explored, the integration of the two is a relatively new area of exploration. Our project aims to bridge the gap between human-centered design and AI, creating a more powerful tool for innovation and problem-solving."
+            st.session_state['q7_default_val'] = "Success will be measured by the creation of innovative, user-centered solutions that yield high user satisfaction and demonstrate effective problem-solving. This includes the ability to scale and adapt to changing user needs, as well as the ability to eliminate or discontinue solutions that do not meet expectations."
+
+        # if colA.button("Autofill"):
+        #     st.session_state['q1_default_val'] = "My role is a software developer tasked with creating an application for law firms."
+        #     st.session_state['q2_default_val'] = "My target audience is law firms that wish to track the status of their cases, alarms, and pending tasks efficiently."
+        #     st.session_state['q3_default_val'] = "The problem lies in the lack of a centralized platform for law firms to monitor their cases' status, receive alerts, and manage pending tasks in an organized manner. The absence of this tool can lead to inefficient management and time wastage in case administration."
+        #     st.session_state['q4_default_val'] = "Some potential root causes could include the absence of an integrated tracking system, information scattered across different platforms, or the lack of automation in case management."
+        #     st.session_state['q5_default_val'] = "My preliminary solutions involve developing a web application that enables law firms to visualize information about their cases' status, set up alarms and reminders, and effectively manage pending tasks."
+        #     st.session_state['q6_default_val'] = "There have been no prior attempts to create a customized application specifically for law firms that comprehensively addresses these needs."
+        #     st.session_state['q7_default_val'] = "Success will be apparent in the adoption by law firms, more efficient case management, a decrease in time spent on administrative tasks, and increased user satisfaction due to enhanced control over their legal cases."
+        #     st.session_state['autofilled'] = True
     
         
         # if colA.button("Autofill"):
