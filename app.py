@@ -68,7 +68,7 @@ nav_emoji = {
 DT_STAGES = ["EMPATHISE", "DEFINE", "IDEATE", "PROTOTYPE", "TEST"]
 
 ##########
-st.markdown("# Design:rainbow[AI]d")
+st.markdown("# Think:rainbow[AI]")
 st.caption("An AI-powered Design Thinking companion")
 
 # testing_mode = st.toggle('Testing Mode')
