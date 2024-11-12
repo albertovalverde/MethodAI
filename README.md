@@ -40,7 +40,8 @@ An AI-powered application to assist in design thinking using the power of large 
 - streamlit_option_menu
 - fpdf
 - langchain
-- langchain_groq (llama 3.2) 
+- langchain_groq (models: https://console.groq.com/docs/models)
+- langchain_ollama (llama 3.2 in local)
 - weaviate
 - clarifai
 
