@@ -27,6 +27,7 @@ An AI-powered application to assist in design thinking using the power of large 
 6. **Restart**: If needed, users can restart the process by navigating to the "Restart" tab.
 
 ## To-Do Ideas for Real-Time Prototyping
+- **langchain_groq** working on langchain_groq to enable testing with llama 3.2 
 - **Real-Time Prototyping Module**: Implement a feature for real-time prototyping functionality.
 - **Live Prototype Viewer**: Incorporate a tool that allows users to view and interact with prototypes in real-time.
 - **Collaborative Prototyping**: Explore possibilities for collaborative prototyping functionalities for team projects.
@@ -39,6 +40,7 @@ An AI-powered application to assist in design thinking using the power of large 
 - streamlit_option_menu
 - fpdf
 - langchain
+- langchain_groq (llama 3.2) 
 - weaviate
 - clarifai
 
