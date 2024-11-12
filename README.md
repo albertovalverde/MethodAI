@@ -27,7 +27,8 @@ An AI-powered application to assist in design thinking using the power of large 
 6. **Restart**: If needed, users can restart the process by navigating to the "Restart" tab.
 
 ## To-Do 
-- **langchain_groq** working on langchain_groq to enable testing with llama 3.2 
+- **langchain_groq** working on langchain_groq to enable testing with models: https://console.groq.com/docs/models
+- **langchain_ollama** llama 3.2 in local
 - **Real-Time Prototyping Module**: Implement a feature for real-time prototyping functionality.
 - **Live Prototype Viewer**: Incorporate a tool that allows users to view and interact with prototypes in real-time.
 - **Collaborative Prototyping**: Explore possibilities for collaborative prototyping functionalities for team projects.
@@ -43,7 +44,7 @@ An AI-powered application to assist in design thinking using the power of large 
 - langchain_groq (models: https://console.groq.com/docs/models)
 - langchain_ollama (llama 3.2 in local)
 - weaviate
-- clarifai
+- clarifai (openai GPT-4)
 
 ## Setup
 
