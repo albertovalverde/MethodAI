@@ -46,7 +46,7 @@ An AI-powered application to assist in design thinking using the power of large 
 - langchain
 - clarifai (openai GPT-4)
 - langchain_groq [models](https://console.groq.com/docs/models)
-- langchain_ollama (llama 3.2 in local)
+- langchain_ollama (llama 3.2 locally)
 
 ## Setup
 
