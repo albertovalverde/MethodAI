@@ -4,5 +4,6 @@ streamlit_option_menu
 fpdf
 langchain
 langchain-community
+langchain-groq
 weaviate
 clarifai

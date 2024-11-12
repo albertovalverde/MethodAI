@@ -61,45 +61,6 @@ def query_gpt4(text_input):
     APP_ID = 'chat-completion'
     MODEL_ID = 'GPT-4'
 
-    # USER_ID = 'albertoval'
-    # APP_ID = 'content-generation-template-69174861f867'
-    # MODEL_ID = 'GPT-4'
-
-    # MODEL_VERSION_ID = 'ad16eda6ac054796bf9f348ab6733c72'
-
-    # channel = ClarifaiChannel.get_grpc_channel()
-    # stub = service_pb2_grpc.V2Stub(channel)
-
-    # metadata = (('authorization', 'Key ' + PAT),)
-
-    # userDataObject = resources_pb2.UserAppIDSet(user_id=USER_ID, app_id=APP_ID)
-
-    # post_model_outputs_response = stub.PostModelOutputs(
-    # service_pb2.PostModelOutputsRequest(
-    #     user_app_id=userDataObject,  # The userDataObject is created in the overview and is required when using a PAT
-    #     model_id=MODEL_ID,
-    #     version_id=MODEL_VERSION_ID,  # This is optional. Defaults to the latest model version
-    #     inputs=[
-    #         resources_pb2.Input(
-    #             data=resources_pb2.Data(
-    #                 text=resources_pb2.Text(
-    #                     raw=prompt
-    #                 )
-    #             )
-    #         )
-    #     ]
-    # ),
-    # metadata=metadata
-    # )
-
-    # if post_model_outputs_response.status.code != status_code_pb2.SUCCESS:
-    #     print(post_model_outputs_response.status)
-    #     raise Exception(f"Post model outputs failed, status: {post_model_outputs_response.status.description}")
-
-    # output = post_model_outputs_response.outputs[0]
-
-    # reply = output.data.text.raw
-
 
     clarifai_llm = Clarifai(pat=PAT, user_id=USER_ID, app_id=APP_ID, model_id=MODEL_ID)
 
