@@ -26,13 +26,15 @@ An AI-powered application to assist in design thinking using the power of large 
 5. **Review Inputs**: Users can review their provided inputs in the "Your Input" tab.
 6. **Restart**: If needed, users can restart the process by navigating to the "Restart" tab.
 
-## To-Do 
-- **langchain_groq** working on langchain_groq to enable testing with models: https://console.groq.com/docs/models
-- **langchain_ollama** llama 3.2 in local
-- **Real-Time Prototyping Module**: Implement a feature for real-time prototyping functionality.
-- **Live Prototype Viewer**: Incorporate a tool that allows users to view and interact with prototypes in real-time.
-- **Collaborative Prototyping**: Explore possibilities for collaborative prototyping functionalities for team projects.
-- **Feedback Integration**: Integrate a feedback mechanism for instant input on prototypes during the design process.
+### To-Do:
+1. Work on **langchain_groq** integration to allow testing with models from [here](https://console.groq.com/docs/models).
+2. Set up **langchain_ollama** llama 3.2 locally.
+3. Implement Real-Time Prototyping Module: Develop real-time prototyping functionality.
+4. Incorporate Live Prototype Viewer: Create a tool for users to interact with prototypes in real-time.
+5. Explore Collaborative Prototyping: Investigate collaborative prototyping options for team projects.
+6. Integrate Feedback Mechanism: Add a feedback system for instant input on prototypes during the design process.
+
+### Does this align better with what you were looking for in the To-Do list structure? Let me know if you need any changes or further assistance!
 
 ## Dependencies
 
