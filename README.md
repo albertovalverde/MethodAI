@@ -26,7 +26,7 @@ An AI-powered application to assist in design thinking using the power of large 
 5. **Review Inputs**: Users can review their provided inputs in the "Your Input" tab.
 6. **Restart**: If needed, users can restart the process by navigating to the "Restart" tab.
 
-## To-Do Ideas for Real-Time Prototyping
+## To-Do 
 - **langchain_groq** working on langchain_groq to enable testing with llama 3.2 
 - **Real-Time Prototyping Module**: Implement a feature for real-time prototyping functionality.
 - **Live Prototype Viewer**: Incorporate a tool that allows users to view and interact with prototypes in real-time.
