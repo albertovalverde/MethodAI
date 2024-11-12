@@ -50,7 +50,7 @@ To get the app running locally:
 2. Install the dependencies.
 3. Run the app using Streamlit.
 
-`streamlit run your_app_filename.py`
+`streamlit run app.py`
 
 ## Integration with Visual Studio Code for Debugging
 To debug the Streamlit app using Visual Studio Code with the provided configuration, follow these steps:
