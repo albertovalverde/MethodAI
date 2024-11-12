@@ -40,11 +40,11 @@ An AI-powered application to assist in design thinking using the power of large 
 - extra_streamlit_components
 - streamlit_option_menu
 - fpdf
+- weaviate
 - langchain
+- clarifai (openai GPT-4)
 - langchain_groq (models: https://console.groq.com/docs/models)
 - langchain_ollama (llama 3.2 in local)
-- weaviate
-- clarifai (openai GPT-4)
 
 ## Setup
 
