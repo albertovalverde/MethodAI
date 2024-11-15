@@ -16,7 +16,7 @@ An AI-powered application to assist in design thinking using the power of large 
 4. **Report Generation**: After obtaining results, users can generate a downloadable PDF report.
 5. **Input Review**: Users can review their input at any point.
 6. **Restart Capability**: The application can be restarted from any stage.
-
+7. **Model Compatibility**: Compatible with various LLM models, Clarifai (GPT-4) and Groq [MODELS](https://console.groq.com/docs/models)
 ## How to Use
 
 1. **Autofill and Demo**: To quickly see the app in action, click "Autofill" to pre-populate the fields and then click "Generate Now" to get AI-powered insights.
@@ -27,12 +27,11 @@ An AI-powered application to assist in design thinking using the power of large 
 6. **Restart**: If needed, users can restart the process by navigating to the "Restart" tab.
 
 ### To-Do:
-1. Work on **langchain_groq** integration to allow testing with models from [here](https://console.groq.com/docs/models).
+1. **wORKING** Implement Real-Time Prototyping Module: Develop real-time prototyping functionality.
 2. Set up **langchain_ollama** llama 3.2 locally.
-3. Implement Real-Time Prototyping Module: Develop real-time prototyping functionality.
-4. Incorporate Live Prototype Viewer: Create a tool for users to interact with prototypes in real-time.
-5. Explore Collaborative Prototyping: Investigate collaborative prototyping options for team projects.
-6. Integrate Feedback Mechanism: Add a feedback system for instant input on prototypes during the design process.
+3. Incorporate Live Prototype Viewer: Create a tool for users to interact with prototypes in real-time.
+4. Explore Collaborative Prototyping: Investigate collaborative prototyping options for team projects.
+5. Integrate Feedback Mechanism: Add a feedback system for instant input on prototypes during the design process.
 
 ### Does this align better with what you were looking for in the To-Do list structure? Let me know if you need any changes or further assistance!
 
@@ -93,5 +92,3 @@ This app makes use of utility functions from various modules (e.g., `utils.pdf`,
 ## Feedback
 
 For any feedback, issues, or feature requests, please open an issue in the repository.
-
-
