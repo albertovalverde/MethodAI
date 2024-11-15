@@ -102,3 +102,24 @@ def generate_interview_prompt(question, context):
     """
 
     return prompt
+
+def generate_user_prototype():
+    
+    prompt = f"""
+        Imagine you are a digital design thinking assistant to aid users in their design thinking process. There are 5 core stages: EMPATHIZE, DEFINE, IDEATE, PROTOTYPE, TEST.
+
+        You have received the following inputs from a user:
+        {st.session_state['q1_default_val']}
+        {st.session_state['q2_default_val']}
+        {st.session_state['q3_default_val']}
+        {st.session_state['q4_default_val']}
+        {st.session_state['q5_default_val']}
+        {st.session_state['q6_default_val']}
+        {st.session_state['q7_default_val']}
+
+        Currently, we are at the PROTOTYPE stage. 
+
+        Please provide me with a Python code snippet that utilizes the Streamlit library to create an interactive application. The code should include a list of option snippets, a multiselect component allowing users to select elements, a text input for adding personalized text, buttons that, when clicked, add the selected options along with the custom text to a variable 'sentence'. Additionally, there should be a button to remove specific elements from 'sentence', with the condition that only the first two elements of the options list are removed if the delete option is selected.
+    """
+
+    return prompt
