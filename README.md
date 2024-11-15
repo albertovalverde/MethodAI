@@ -27,7 +27,7 @@ An AI-powered application to assist in design thinking using the power of large 
 6. **Restart**: If needed, users can restart the process by navigating to the "Restart" tab.
 
 ### To-Do:
-1. **wORKING** Implement Real-Time Prototyping Module: Develop real-time prototyping functionality.
+1. **WORKING** Implement Real-Time Prototyping Module: Develop real-time prototyping functionality.
 2. Set up **langchain_ollama** llama 3.2 locally.
 3. Incorporate Live Prototype Viewer: Create a tool for users to interact with prototypes in real-time.
 4. Explore Collaborative Prototyping: Investigate collaborative prototyping options for team projects.
