@@ -10,7 +10,8 @@ import base64
 from utils.flowchart import mermaid
 from utils.pdf import sanitise_text, multi_cell, create_download_link
 from utils.clarifai import query_gpt4, query_SDXL, moderate_input
-from utils.prompts import generate_dt_prompt, generate_prototype_img_prompt, generate_user_journey_prompt, generate_interview_prompt, generate_user_prototype
+from utils.prompts import generate_dt_prompt, generate_prototype_img_prompt, generate_user_journey_prompt, generate_interview_prompt
+# from utils.prompts import generate_user_prototype
 # from utils.weaviate import load_data_to_weaviate, query_weaviate, clear_weviate
 
 from utils.groqllm import query_groq
