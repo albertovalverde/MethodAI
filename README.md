@@ -16,7 +16,7 @@ An AI-powered application to assist in design thinking using the power of large 
 4. **Report Generation**: After obtaining results, users can generate a downloadable PDF report.
 5. **Input Review**: Users can review their input at any point.
 6. **Restart Capability**: The application can be restarted from any stage.
-7. **AI Model Compatibility**: Compatible with various LLM models, Clarifai (GPT-4) and Groq [MODELS](https://console.groq.com/docs/models)
+7. **AI Model Compatibility**: Compatible with various LLM models, Clarifai (GPT-4) and Groq [models](https://console.groq.com/docs/models)
 ## How to Use
 
 1. **Autofill and Demo**: To quickly see the app in action, click "Autofill" to pre-populate the fields and then click "Generate Now" to get AI-powered insights.
