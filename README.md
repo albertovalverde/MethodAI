@@ -12,11 +12,12 @@ An AI-powered application to assist in design thinking using the power of large 
 
 1. **Interactive Interface**: Offers a step-by-step walkthrough of the design thinking stages.
 2. **Autofill for Demo**: Users can quickly start with a demo setup, where the necessary fields are autofilled.
-3. **AI-powered Suggestions**: Based on user input, the application generates AI suggestions for each stage.
-4. **Report Generation**: After obtaining results, users can generate a downloadable PDF report.
-5. **Input Review**: Users can review their input at any point.
-6. **Restart Capability**: The application can be restarted from any stage.
-7. **AI Model Compatibility**: Compatible with various LLM models, Clarifai (GPT-4) and Groq [models](https://console.groq.com/docs/models)
+3. **Feedback Response System**: Data Enrichment Set for Enhanced Design Thinking Evaluation.
+4. **AI-powered Suggestions**: Based on user input, the application generates AI suggestions for each stage.
+5. **Report Generation**: After obtaining results, users can generate a downloadable PDF report.
+6. **Input Review**: Users can review their input at any point.
+7. **Restart Capability**: The application can be restarted from any stage.
+8. **AI Model Compatibility**: Compatible with various LLM models, Clarifai (GPT-4) and Groq [models](https://console.groq.com/docs/models)
 ## How to Use
 
 1. **Autofill and Demo**: To quickly see the app in action, click "Autofill" to pre-populate the fields and then click "Generate Now" to get AI-powered insights.
