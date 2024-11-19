@@ -1,4 +1,5 @@
 
+
 ![MethodAI](image.jpeg)
 
 # MethodAI
@@ -8,6 +9,21 @@ A Cutting-Edge Solution Merging Methodologies with Artificial Intelligence for R
 ## Introduction
 
 `MethodAI` is an interactive Streamlit application that assists users in navigating the innovation process by seamlessly integrating various methodologies like Design Thinking and Lean Six Sigma. By capitalizing on artificial intelligence, the application enhances problem-solving efficiency while emphasizing user-centered principles, enabling rapid prototyping.
+
+
+
+## Why?
+Highlighting the lack of user-centered methodologies and the absence of prototypes before final production, ensures product viability by involving the user from the outset and allowing for testing before the definitive implementation.
+
+## For what?
+The application aims to optimize innovation by facilitating the generation of disruptive ideas, their validation with real users, and reducing the time invested in unsuccessful projects.
+
+## How?
+Through the combination of successful methodologies such as Design Thinking and Lean Six Sigma, augmented by artificial intelligence, development is streamlined for rapid prototyping and iterative testing before the final implementation, significantly enhancing the effectiveness of the product creation process.
+
+## How much?
+The assessment of resources and costs for implementing these enhancements will depend on the project's scope regarding development and the quality of prototype generation, as well as the cost associated with using the paid LLM. A detailed analysis is recommended for an accurate estimate.
+
 
 ## Features
 
