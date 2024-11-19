@@ -11,7 +11,7 @@ from utils.flowchart import mermaid
 from utils.pdf import sanitise_text, multi_cell, create_download_link
 from utils.clarifai import query_gpt4, query_SDXL, moderate_input
 from utils.prompts import generate_dt_prompt, generate_prototype_img_prompt, generate_user_journey_prompt, generate_interview_prompt
-# from utils.prompts import generate_user_prototype
+from utils.prompts import generate_user_prototype
 # from utils.weaviate import load_data_to_weaviate, query_weaviate, clear_weviate
 
 from utils.groqllm import query_groq
@@ -142,25 +142,27 @@ if st.session_state['generated'] == 0:
         #     st.session_state['autofilled'] = True
     
         
-        # if colA.button("Autofill"):
-        #     st.session_state['q1_default_val'] = "I'm a Product Designer with a focus on developing assistive technology tools to enhance the daily lives of individuals with disabilities."
-        #     st.session_state['q2_default_val'] = "Our primary target audience includes individuals with physical impairments, specifically those who have mobility challenges. This ranges from elderly individuals with reduced dexterity to younger individuals who might have been born with or acquired physical limitations."
-        #     st.session_state['q3_default_val'] = "Many daily tasks are challenging for our audience due to a lack of accessible devices. This hinders their independence and confidence daily."
-        #     st.session_state['q4_default_val'] = "Mainstream design often overlooks disability needs, perceptions of high development costs, and a lack of empathy for unique challenges."
-        #     st.session_state['q5_default_val'] = "Modular tools for customization, voice and gesture-controlled devices, and partnerships with therapists for insight."
-        #     st.session_state['q6_default_val'] = "Yes, but they were often too specialized, expensive, or lacked aesthetics and durability."
-        #     st.session_state['q7_default_val'] = "Increased user independence, high adoption rates, and positive user feedback indicating enhanced daily living."
-        #     st.session_state['autofilled'] = Trueç
-
         if colA.button("Autofill"):
-            st.session_state['q1_default_val'] = "I am a software developer focusing on creating accessible applications to enhance the lives of individuals with disabilities."
-            st.session_state['q2_default_val'] = "My focus is on assisting individuals of varying ages with mobility challenges and specific needs."
-            st.session_state['q3_default_val'] = "Daily tasks are a challenge due to the lack of accessible solutions, limiting the independence of individuals with disabilities."
-            st.session_state['q4_default_val'] = "Common obstacles include lack of accessibility, prohibitive costs, and a lack of attention to unique user needs."
-            st.session_state['q5_default_val'] = "My proposals revolve around customizable tools, user-friendly interfaces, and innovative features to enhance daily living for users."
-            st.session_state['q6_default_val'] = "Previous solutions lacked adaptability, accessibility, and a focus on the specific needs of individuals with disabilities."
-            st.session_state['q7_default_val'] = "My goals include enhancing independence, fostering widespread adoption, and receiving valuable feedback to drive the development of more inclusive software."
+            st.session_state['q1_default_val'] = "I'm a Product Designer with a focus on developing assistive technology tools to enhance the daily lives of individuals with disabilities."
+            st.session_state['q2_default_val'] = "Our primary target audience includes individuals with physical impairments, specifically those who have mobility challenges. This ranges from elderly individuals with reduced dexterity to younger individuals who might have been born with or acquired physical limitations."
+            st.session_state['q3_default_val'] = "Many daily tasks are challenging for our audience due to a lack of accessible devices. This hinders their independence and confidence daily."
+            st.session_state['q4_default_val'] = "Mainstream design often overlooks disability needs, perceptions of high development costs, and a lack of empathy for unique challenges."
+            st.session_state['q5_default_val'] = "Modular tools for customization, voice and gesture-controlled devices, and partnerships with therapists for insight."
+            st.session_state['q6_default_val'] = "Yes, but they were often too specialized, expensive, or lacked aesthetics and durability."
+            st.session_state['q7_default_val'] = "Increased user independence, high adoption rates, and positive user feedback indicating enhanced daily living."
             st.session_state['autofilled'] = True
+
+        # if colA.button("Autofill"):
+        #     st.session_state['q1_default_val'] = "I am a software developer focusing on creating accessible applications to enhance the lives of individuals with disabilities."
+        #     st.session_state['q2_default_val'] = "My focus is on assisting individuals of varying ages with mobility challenges and specific needs."
+        #     st.session_state['q3_default_val'] = "Daily tasks are a challenge due to the lack of accessible solutions, limiting the independence of individuals with disabilities."
+        #     st.session_state['q4_default_val'] = "Common obstacles include lack of accessibility, prohibitive costs, and a lack of attention to unique user needs."
+        #     st.session_state['q5_default_val'] = "My proposals revolve around customizable tools, user-friendly interfaces, and innovative features to enhance daily living for users."
+        #     st.session_state['q6_default_val'] = "Previous solutions lacked adaptability, accessibility, and a focus on the specific needs of individuals with disabilities."
+        #     st.session_state['q7_default_val'] = "My goals include enhancing independence, fostering widespread adoption, and receiving valuable feedback to drive the development of more inclusive software."
+        #     st.session_state['autofilled'] = True
+
+            
 
             st.session_state["user_inputs"] = [st.session_state[f'q{i}_default_val'] for i in range(1, 8)]
         
@@ -340,12 +342,6 @@ elif st.session_state['generated'] == 1:
 
 
 
-
-
-
-
-
-
     with tab3:
         col3_1, col3_2 = st.columns((5, 8))
         col3_1.markdown("## Interview your virtual persona")
@@ -415,7 +411,7 @@ elif st.session_state['generated'] == 1:
                     #     except:
                     #         pass
 
-                html = create_download_link(pdf.output(dest="S"), "report")
+                html = create_download_link(pdf.output(dest="S").encode('latin-1'), "report")
 
                 st.toast('Your report has been generated!', icon='😍')
                 
