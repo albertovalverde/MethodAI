@@ -1,23 +1,30 @@
 
-![ThinkAi](image.jpeg)
+![MethodAI](image.jpeg)
 
-# ThinkAI
-An AI-powered application to assist in design thinking using the power of large language models.
+# MethodAI
+A Cutting-Edge Solution Merging Methodologies with Artificial Intelligence for Rapid Prototyping and Efficient Product Development
+
+
 
 ## Introduction
 
-`ThinkAi` is an interactive Streamlit application that guides users through the Design Thinking process. The app uses AI to generate insights, suggestions, and guidance based on user inputs across various stages of the design thinking methodology: Empathize, Define, Ideate, Prototype, and Test.
+`MethodAI` is an interactive Streamlit application that assists users in navigating the innovation process by seamlessly integrating various methodologies like Design Thinking and Lean Six Sigma. By capitalizing on artificial intelligence, the application enhances problem-solving efficiency while emphasizing user-centered principles, enabling rapid prototyping.
 
 ## Features
 
-1. **Interactive Interface**: Offers a step-by-step walkthrough of the design thinking stages.
-2. **Autofill for Demo**: Users can quickly start with a demo setup, where the necessary fields are autofilled.
-3. **Feedback Response System**: Data Enrichment Set for Enhanced Design Thinking Evaluation.
-4. **AI-powered Suggestions**: Based on user input, the application generates AI suggestions for each stage.
-5. **Report Generation**: After obtaining results, users can generate a downloadable PDF report.
-6. **Input Review**: Users can review their input at any point.
-7. **Restart Capability**: The application can be restarted from any stage.
-8. **AI Model Compatibility**: Compatible with various LLM models, Clarifai (GPT-4) and Groq [models](https://console.groq.com/docs/models)
+# MethodAI Features
+
+# MethodAI Features
+
+- **User-Centric Focus:** MethodAI prioritizes the user experience, ensuring personalized and efficient solutions.
+- **Methodology Diversity:** Integrates methodologies like Design Thinking and Lean Six Sigma for a holistic problem-solving approach.
+- **AI-Driven Insights:** Provides AI-generated suggestions and guidance based on user inputs across all stages of the innovation process.
+- **Rapid Prototyping:** Swiftly generates prototypes aligning with rapid prototyping principles.
+- **Data Enrichment:** Incorporates a feedback response system for enhanced evaluation of problem-solving methodologies.
+- **Flexibility and Adaptability:** Allows users to explore diverse approaches in a flexible and adaptive manner.
+- **Report Generation:** Facilitates the creation of downloadable PDF reports summarizing inputs and AI-derived suggestions.
+- **AI Model Compatibility:** Compatible with multiple LLM models, Clarifai (GPT-4), and Groq [models](https://console.groq.com/docs/models)
+
 ## How to Use
 
 1. **Autofill and Demo**: To quickly see the app in action, click "Autofill" to pre-populate the fields and then click "Generate Now" to get AI-powered insights.
@@ -27,12 +34,15 @@ An AI-powered application to assist in design thinking using the power of large 
 5. **Review Inputs**: Users can review their provided inputs in the "Your Input" tab.
 6. **Restart**: If needed, users can restart the process by navigating to the "Restart" tab.
 
-### To-Do:
+### To-Do List:
 1. **WORKING** Implement Real-Time Prototyping Module: Develop real-time prototyping functionality.
-2. Set up **langchain_ollama** llama 3.2 locally.
-3. Incorporate Live Prototype Viewer: Create a tool for users to interact with prototypes in real-time.
-4. Explore Collaborative Prototyping: Investigate collaborative prototyping options for team projects.
-5. Integrate Feedback Mechanism: Add a feedback system for instant input on prototypes during the design process.
+2. **In Progress - Methodology Selection Enhancement**: Prepare for the integration of the methodology selection option, such as Design Thinking or Lean Six Sigma.
+3. Set up **langchain_ollama** llama 3.2 locally.
+4. Incorporate Live Prototype Viewer: Create a tool for users to interact with prototypes in real-time.
+5. Explore Collaborative Prototyping: Investigate collaborative prototyping options for team projects.
+6. Integrate Feedback Mechanism: Add a feedback system for instant input on prototypes during the design process.
+
+
 
 ### Does this align better with what you were looking for in the To-Do list structure? Let me know if you need any changes or further assistance!
 
