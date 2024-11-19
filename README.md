@@ -22,12 +22,13 @@ A Cutting-Edge Solution Merging Methodologies with Artificial Intelligence for R
 
 ## How to Use
 
-1. **Autofill and Demo**: To quickly see the app in action, click "Autofill" to pre-populate the fields and then click "Generate Now" to get AI-powered insights.
-2. **Manual Input**: Users can manually input answers to the presented questions, which will guide the AI's suggestions.
-3. **Navigate Between Stages**: Once generated, the results for each design thinking stage can be viewed through tabs or by using the 'Next' button.
-4. **Download Report**: Go to the "Download Report" tab to generate and download a comprehensive PDF report of your inputs and the AI's suggestions.
-5. **Review Inputs**: Users can review their provided inputs in the "Your Input" tab.
-6. **Restart**: If needed, users can restart the process by navigating to the "Restart" tab.
+- **Autofill and Demo:** Quickly explore the app by clicking "Autofill" to pre-fill fields and then "Generate Now" for AI-powered insights.
+- **Manual Input:** Users can input answers manually for tailored AI recommendations.
+- **Navigate Between Stages:** Move between stages of different methodologies effortlessly, not limited to just Design Thinking, to enhance results.
+- **Rapid Prototyping:** Allows for the generation of disruptive ideas and testing their application with real users.
+- **Download Report:** Access the "Download Report" tab to retrieve a detailed PDF report encompassing inputs and AI suggestions.
+- **Review Inputs:** Evaluate your inputs within the "Your Input" section.
+- **Restart:** Restart the process if needed by navigating to the "Restart" tab.
 
 ### To-Do List:
 1. **WORKING** Implement Real-Time Prototyping Module: Develop real-time prototyping functionality.
