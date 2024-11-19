@@ -25,7 +25,7 @@ from langchain.chains import LLMChain
 
 ##########
 st.set_page_config(
-    page_title="ThinkAI",
+    page_title="MethodAI",
     page_icon="💡",
     layout="wide",
     initial_sidebar_state="auto"
@@ -71,7 +71,7 @@ nav_emoji = {
 DT_STAGES = ["EMPATHISE", "DEFINE", "IDEATE", "PROTOTYPE", "TEST"]
 
 ##########
-st.markdown("# Think:rainbow[AI]")
+st.markdown("# Method:rainbow[AI]")
 st.caption("An AI-powered Design Thinking companion")
 
 # testing_mode = st.toggle('Testing Mode')
@@ -142,15 +142,15 @@ if st.session_state['generated'] == 0:
         #     st.session_state['autofilled'] = True
     
         
-        if colA.button("Autofill"):
-            st.session_state['q1_default_val'] = "I'm a Product Designer with a focus on developing assistive technology tools to enhance the daily lives of individuals with disabilities."
-            st.session_state['q2_default_val'] = "Our primary target audience includes individuals with physical impairments, specifically those who have mobility challenges. This ranges from elderly individuals with reduced dexterity to younger individuals who might have been born with or acquired physical limitations."
-            st.session_state['q3_default_val'] = "Many daily tasks are challenging for our audience due to a lack of accessible devices. This hinders their independence and confidence daily."
-            st.session_state['q4_default_val'] = "Mainstream design often overlooks disability needs, perceptions of high development costs, and a lack of empathy for unique challenges."
-            st.session_state['q5_default_val'] = "Modular tools for customization, voice and gesture-controlled devices, and partnerships with therapists for insight."
-            st.session_state['q6_default_val'] = "Yes, but they were often too specialized, expensive, or lacked aesthetics and durability."
-            st.session_state['q7_default_val'] = "Increased user independence, high adoption rates, and positive user feedback indicating enhanced daily living."
-            st.session_state['autofilled'] = True
+        # if colA.button("Autofill"):
+        #     st.session_state['q1_default_val'] = "I'm a Product Designer with a focus on developing assistive technology tools to enhance the daily lives of individuals with disabilities."
+        #     st.session_state['q2_default_val'] = "Our primary target audience includes individuals with physical impairments, specifically those who have mobility challenges. This ranges from elderly individuals with reduced dexterity to younger individuals who might have been born with or acquired physical limitations."
+        #     st.session_state['q3_default_val'] = "Many daily tasks are challenging for our audience due to a lack of accessible devices. This hinders their independence and confidence daily."
+        #     st.session_state['q4_default_val'] = "Mainstream design often overlooks disability needs, perceptions of high development costs, and a lack of empathy for unique challenges."
+        #     st.session_state['q5_default_val'] = "Modular tools for customization, voice and gesture-controlled devices, and partnerships with therapists for insight."
+        #     st.session_state['q6_default_val'] = "Yes, but they were often too specialized, expensive, or lacked aesthetics and durability."
+        #     st.session_state['q7_default_val'] = "Increased user independence, high adoption rates, and positive user feedback indicating enhanced daily living."
+        #     st.session_state['autofilled'] = True
 
         # if colA.button("Autofill"):
         #     st.session_state['q1_default_val'] = "I am a software developer focusing on creating accessible applications to enhance the lives of individuals with disabilities."
@@ -161,6 +161,17 @@ if st.session_state['generated'] == 0:
         #     st.session_state['q6_default_val'] = "Previous solutions lacked adaptability, accessibility, and a focus on the specific needs of individuals with disabilities."
         #     st.session_state['q7_default_val'] = "My goals include enhancing independence, fostering widespread adoption, and receiving valuable feedback to drive the development of more inclusive software."
         #     st.session_state['autofilled'] = True
+
+
+        if colA.button("Autofill"):
+            st.session_state['q1_default_val'] = "As a UX Designer focusing on accessibility, my role involves creating user interfaces that enable individuals facing typing challenges to effectively participate in surveys without relying on traditional text input methods."
+            st.session_state['q2_default_val'] = "Our target audience comprises individuals who have difficulty typing, such as those with physical impairments affecting their ability to use a keyboard. This includes individuals with motor disabilities, elderly users with limited dexterity, and others in need of alternative input methods."
+            st.session_state['q3_default_val'] = "This leads to limitations in effectively communicating their thoughts and opinions, impacting their ability to provide input in various contexts on a day-to-day basis."
+            st.session_state['q4_default_val'] = "Root causes include the lack of inclusive design in survey interfaces, limited options for non-text input methods, and a general oversight of accessibility features in survey design frameworks."
+            st.session_state['q5_default_val'] = "Our proposed solutions involve incorporating voice input functionality, gesture-based interactions, dynamic visual feedback, customizable interface elements."
+            st.session_state['q6_default_val'] = "These initiatives have mainly focused on marking predetermined answers in a test-like format, limiting users from expressing themselves in more detail."
+            st.session_state['q7_default_val'] = "Success will be marked by increased engagement and participation in surveys from users facing typing challenges, positive feedback on the accessibility and usability of the interface, and enhanced inclusivity in survey design for individuals with diverse needs. Success is also defined by the ability of users to express their opinions effectively and feel empowered in their survey interactions."
+            st.session_state['autofilled'] = True
 
             
 

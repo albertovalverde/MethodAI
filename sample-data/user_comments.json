@@ -1,52 +1,52 @@
 [
     {
         "user_id": "U001",
-        "question": "What aspects do you consider important when using technological tools in your daily tasks?",
-        "answer": "I value ease of use and the ability of technological tools to optimize my work processes without adding additional complexity."
+        "question": "How do you prefer to access information online?",
+        "answer": "I usually rely on visual content and clean interfaces for easy navigation."
     },
     {
         "user_id": "U002",
-        "question": "How do high implementation costs of new technological solutions affect your willingness to try innovative tools?",
-        "answer": "High implementation costs limit my willingness to try new technological solutions, as they pose a financial risk that I have to consider."
+        "question": "What challenges do you face when completing online forms?",
+        "answer": "I struggle with typing due to a physical disability, making it difficult to express my thoughts effectively."
     },
     {
-        "user_id": "U003",
-        "question": "What challenges do you encounter when using new technological tools in your work routine?",
-        "answer": "I often face obstacles when trying to adapt to new technological tools, as they require time to learn how to use them effectively."
+        "user_id": "U001",
+        "question": "What features do you find most helpful in a mobile application?",
+        "answer": "I appreciate apps with intuitive designs that offer customizable options to suit my preferences."
     },
     {
-        "user_id": "U004",
-        "question": "What do you think could be the reasons why innovative technologies are sometimes not effectively used in your work environment?",
-        "answer": "Lack of knowledge and proper training may be reasons why innovative technologies are not effectively used in our work environment."
+        "user_id": "U002",
+        "question": "How do you feel about voice recognition technology for inputting text?",
+        "answer": "I find it extremely beneficial as it allows me to bypass typing challenges and communicate more efficiently."
     },
     {
-        "user_id": "U005",
-        "question": "How do you imagine a new technological tool could help you be more innovative in your daily work?",
-        "answer": "I believe a new technological tool could enhance my creativity and promote innovative thinking by automating repetitive tasks and freeing me up for more creative activities."
+        "user_id": "U001",
+        "question": "What motivates you to participate in online surveys or feedback forms?",
+        "answer": "I am more inclined to provide feedback when the process is user-friendly and doesn't require extensive typing."
     },
     {
-        "user_id": "U006",
-        "question": "What benefits would you expect from a technological tool that helps you solve problems more efficiently?",
-        "answer": "I would expect a technological tool to enable me to address problems more quickly and accurately, saving time and improving the quality of my results."
+        "user_id": "U002",
+        "question": "In your opinion, what improvements could be made to make online surveys more accessible?",
+        "answer": "Including voice input options and simplified interfaces would greatly enhance accessibility for users with typing difficulties."
     },
     {
-        "user_id": "U007",
-        "question": "How important do you think it is to adapt technological solutions as your needs and those of your team change?",
-        "answer": "I consider it crucial for technological solutions to evolve to meet our changing needs, ensuring that we can work efficiently and effectively at all times."
+        "user_id": "U001",
+        "question": "How do you adapt to new technologies introduced in your daily routine?",
+        "answer": "I prefer technologies that seamlessly integrate into my workflow and enhance efficiency without a steep learning curve."
     },
     {
-        "user_id": "U008",
-        "question": "Have you ever faced difficulties when adopting new technological tools in your current work processes?",
-        "answer": "Yes, at times I have encountered challenges when adopting new technological tools, as they require a shift in how I work and can sometimes be overwhelming at the outset."
+        "user_id": "U002",
+        "question": "Would you be more likely to participate in surveys if they offered alternative input methods?",
+        "answer": "Absolutely, having options like voice input would make it much easier for me to engage in online surveys."
     },
     {
-        "user_id": "U009",
-        "question": "How do you think a user-centered technological solution could enhance your work experience?",
-        "answer": "I imagine a user-centered solution could make my work smoother and more efficient by adapting to my needs and preferences without unnecessarily complicating my daily tasks."
+        "user_id": "U001",
+        "question": "What concerns do you have regarding the privacy and security of your data when using online tools?",
+        "answer": "I prioritize platforms that ensure data protection measures and transparent privacy policies."
     },
     {
-        "user_id": "U010",
-        "question": "What impact do you think an innovative technological solution would have on your job satisfaction and engagement?",
-        "answer": "I believe an innovative technological solution could increase my job satisfaction by simplifying my work processes and motivating me to be more creative and productive in my daily tasks."
+        "user_id": "U002",
+        "question": "How do you typically navigate through complex online interfaces?",
+        "answer": "I often find it challenging to navigate and interact with interfaces that require extensive typing or precise mouse movements."
     }
 ]
