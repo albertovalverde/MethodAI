@@ -72,7 +72,7 @@ DT_STAGES = ["EMPATHISE", "DEFINE", "IDEATE", "PROTOTYPE", "TEST"]
 
 ##########
 st.markdown("# Method:rainbow[AI]")
-st.caption("An AI-powered Design Thinking companion")
+st.caption("An AI-powered agile methodology combined companion")
 
 # testing_mode = st.toggle('Testing Mode')
 testing_mode = False
@@ -131,15 +131,15 @@ if st.session_state['generated'] == 0:
         #     st.session_state['q6_default_val'] = "While design thinking and AI have been individually explored, the integration of the two is a relatively new area of exploration. Our project aims to bridge the gap between human-centered design and AI, creating a more powerful tool for innovation and problem-solving."
         #     st.session_state['q7_default_val'] = "Success will be measured by the creation of innovative, user-centered solutions that yield high user satisfaction and demonstrate effective problem-solving. This includes the ability to scale and adapt to changing user needs, as well as the ability to eliminate or discontinue solutions that do not meet expectations."
 
-        # if colA.button("Autofill"):
-        #     st.session_state['q1_default_val'] = "My role is a software developer tasked with creating an application for law firms."
-        #     st.session_state['q2_default_val'] = "My target audience is law firms that wish to track the status of their cases, alarms, and pending tasks efficiently."
-        #     st.session_state['q3_default_val'] = "The problem lies in the lack of a centralized platform for law firms to monitor their cases' status, receive alerts, and manage pending tasks in an organized manner. The absence of this tool can lead to inefficient management and time wastage in case administration."
-        #     st.session_state['q4_default_val'] = "Some potential root causes could include the absence of an integrated tracking system, information scattered across different platforms, or the lack of automation in case management."
-        #     st.session_state['q5_default_val'] = "My preliminary solutions involve developing a web application that enables law firms to visualize information about their cases' status, set up alarms and reminders, and effectively manage pending tasks."
-        #     st.session_state['q6_default_val'] = "There have been no prior attempts to create a customized application specifically for law firms that comprehensively addresses these needs."
-        #     st.session_state['q7_default_val'] = "Success will be apparent in the adoption by law firms, more efficient case management, a decrease in time spent on administrative tasks, and increased user satisfaction due to enhanced control over their legal cases."
-        #     st.session_state['autofilled'] = True
+        if colA.button("Autofill"):
+            st.session_state['q1_default_val'] = "My role is a software developer tasked with creating an application for law firms."
+            st.session_state['q2_default_val'] = "My target audience is law firms that wish to track the status of their cases, alarms, and pending tasks efficiently."
+            st.session_state['q3_default_val'] = "The problem lies in the lack of a centralized platform for law firms to monitor their cases' status, receive alerts, and manage pending tasks in an organized manner. The absence of this tool can lead to inefficient management and time wastage in case administration."
+            st.session_state['q4_default_val'] = "Some potential root causes could include the absence of an integrated tracking system, information scattered across different platforms, or the lack of automation in case management."
+            st.session_state['q5_default_val'] = "My preliminary solutions involve developing a web application that enables law firms to visualize information about their cases' status, set up alarms and reminders, and effectively manage pending tasks."
+            st.session_state['q6_default_val'] = "There have been no prior attempts to create a customized application specifically for law firms that comprehensively addresses these needs."
+            st.session_state['q7_default_val'] = "Success will be apparent in the adoption by law firms, more efficient case management, a decrease in time spent on administrative tasks, and increased user satisfaction due to enhanced control over their legal cases."
+            st.session_state['autofilled'] = True
     
         
         # if colA.button("Autofill"):
@@ -163,15 +163,15 @@ if st.session_state['generated'] == 0:
         #     st.session_state['autofilled'] = True
 
 
-        if colA.button("Autofill"):
-            st.session_state['q1_default_val'] = "As a UX Designer focusing on accessibility, my role involves creating user interfaces that enable individuals facing typing challenges to effectively participate in surveys without relying on traditional text input methods."
-            st.session_state['q2_default_val'] = "Our target audience comprises individuals who have difficulty typing, such as those with physical impairments affecting their ability to use a keyboard. This includes individuals with motor disabilities, elderly users with limited dexterity, and others in need of alternative input methods."
-            st.session_state['q3_default_val'] = "This leads to limitations in effectively communicating their thoughts and opinions, impacting their ability to provide input in various contexts on a day-to-day basis."
-            st.session_state['q4_default_val'] = "Root causes include the lack of inclusive design in survey interfaces, limited options for non-text input methods, and a general oversight of accessibility features in survey design frameworks."
-            st.session_state['q5_default_val'] = "Our proposed solutions involve incorporating voice input functionality, gesture-based interactions, dynamic visual feedback, customizable interface elements."
-            st.session_state['q6_default_val'] = "These initiatives have mainly focused on marking predetermined answers in a test-like format, limiting users from expressing themselves in more detail."
-            st.session_state['q7_default_val'] = "Success will be marked by increased engagement and participation in surveys from users facing typing challenges, positive feedback on the accessibility and usability of the interface, and enhanced inclusivity in survey design for individuals with diverse needs. Success is also defined by the ability of users to express their opinions effectively and feel empowered in their survey interactions."
-            st.session_state['autofilled'] = True
+        # if colA.button("Autofill"):
+        #     st.session_state['q1_default_val'] = "As a UX Designer focusing on accessibility, my role involves creating user interfaces that enable individuals facing typing challenges to effectively participate in surveys without relying on traditional text input methods."
+        #     st.session_state['q2_default_val'] = "Our target audience comprises individuals who have difficulty typing, such as those with physical impairments affecting their ability to use a keyboard. This includes individuals with motor disabilities, elderly users with limited dexterity, and others in need of alternative input methods."
+        #     st.session_state['q3_default_val'] = "This leads to limitations in effectively communicating their thoughts and opinions, impacting their ability to provide input in various contexts on a day-to-day basis."
+        #     st.session_state['q4_default_val'] = "Root causes include the lack of inclusive design in survey interfaces, limited options for non-text input methods, and a general oversight of accessibility features in survey design frameworks."
+        #     st.session_state['q5_default_val'] = "Our proposed solutions involve incorporating voice input functionality, gesture-based interactions, dynamic visual feedback, customizable interface elements."
+        #     st.session_state['q6_default_val'] = "These initiatives have mainly focused on marking predetermined answers in a test-like format, limiting users from expressing themselves in more detail."
+        #     st.session_state['q7_default_val'] = "Success will be marked by increased engagement and participation in surveys from users facing typing challenges, positive feedback on the accessibility and usability of the interface, and enhanced inclusivity in survey design for individuals with diverse needs. Success is also defined by the ability of users to express their opinions effectively and feel empowered in their survey interactions."
+        #     st.session_state['autofilled'] = True
 
             
 
@@ -422,8 +422,12 @@ elif st.session_state['generated'] == 1:
                     #     except:
                     #         pass
 
+                # html = create_download_link(pdf.output(dest="S"), "report")
+                # html = create_download_link(pdf.output(),"report")
                 html = create_download_link(pdf.output(dest="S").encode('latin-1'), "report")
 
+            
+                
                 st.toast('Your report has been generated!', icon='😍')
                 
                 st.markdown(html, unsafe_allow_html=True)

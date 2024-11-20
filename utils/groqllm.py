@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 PAT = st.secrets["GROQ_API_KEY"]
-chat = ChatGroq(temperature=0, groq_api_key=PAT, model_name="mixtral-8x7b-32768")
+chat = ChatGroq(temperature=0, groq_api_key=PAT, model_name="llama-3.1-70b-versatile")
 
 @st.cache_resource(show_spinner=False)
 def query_groq(text_input):   
