@@ -2,6 +2,15 @@
 
 ![MethodAI](image.jpeg)
 
+# MethodAI
+
+A Cutting-Edge Solution Merging Methodologies with Artificial Intelligence for Rapid Prototyping and Efficient Product Development
+
+
+## Introduction
+
+`MethodAI` is an interactive Streamlit application that assists users in navigating the innovation process by seamlessly integrating various methodologies like Design Thinking and Lean Six Sigma. By capitalizing on artificial intelligence, the application enhances problem-solving efficiency while emphasizing user-centered principles, enabling rapid prototyping.
+
 
 ## Features
 
