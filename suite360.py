@@ -131,3 +131,5 @@ if st.button("Crear automatización", key="nurturing"):
 mostrar_etiqueta("1 hora por cliente", "3 pasos", "- Envío manual de correos electrónicos\n- Creación manual de contenido personalizado\n- Seguimiento manual de clientes para mantenerlos leales")
 
 st.write("¡Todo el proceso de gestión de casos con la Suite AI Legal 360° ha sido automatizado!")
+
+
