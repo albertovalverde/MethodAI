@@ -12,7 +12,7 @@ def mostrar_etiqueta(tiempo_ahorrado, pasos_eliminados, detalles_pasos):
         unsafe_allow_html=True,
     )
 
-st.title("Simulación Caso de Negligencia Médica con Suite AI Legal 360°")
+st.title("Simulación Caso de Negligencia Médica comparativa usando o no la Suite AI Legal 360° de Lefebvre")
 
 # Comparación de caso sin y con la Suite AI Legal 360°
 col1, col2 = st.columns(2)
