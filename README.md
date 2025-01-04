@@ -33,7 +33,7 @@ A Cutting-Edge Solution Merging Methodologies with Artificial Intelligence for R
 - **Review Inputs:** Evaluate your inputs within the "Your Input" section.
 - **Restart:** Restart the process if needed by navigating to the "Restart" tab.
 
-### To-Do List:
+### Upcoming Developments:
 1. **WORKING** Implement Real-Time Prototyping Module: Develop real-time prototyping functionality.
 2. **In Progress - Methodology Selection Enhancement**: Prepare for the integration of the methodology selection option, such as Design Thinking or Lean Six Sigma.
 3. Set up **langchain_ollama** llama 3.2 locally.
